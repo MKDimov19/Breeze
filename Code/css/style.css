@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'segoe ui';
+  }
+  
+  .nav {
+    background-image: linear-gradient(to right, red , rgb(255, 196, 0));
+    height: 65px;
+    width: 100%;
+    background-color: #4d4d4d;
+    position: relative;
+  }
+  
+  .nav > .nav-header {
+    margin-top: -0.8vw;
+  }
+  .nav-title{
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+    margin-left:6vw;
+    
+  }
+  .nav > .nav-header >  {
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    margin-top:-3.8vw;
+    display: inline;
+    float: right;
+    font-size: 25px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: #dd0000;
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+  .active {
+    background-color: #db000080;
+}
+.map-responsive{
+  margin-top:6vw;
+  padding-bottom: 10vw;
+  position:relative;
+  padding-top:20vw;
+  margin-left:25vw;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:30vw;
+  width:50vw;
+  position:absolute;
+}
+.tips{
+  font-size: 30px;
+  margin-left:36vw;
+}
+.tips-pic{
+  height: auto;
+  width:70%;
+  margin-left: 13vw;
+}
+.a-map{
+  font-size: 40px;
+  margin-left:45vw;
+}
+.logo-nav{
+  width:3%;
+  margin-top: 1.3vw;
+  margin-left:-10vw;
+}
+.button {
+  margin-top:20vw;
+  margin-left:1vw;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #dd0202;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(163, 163, 163);
+}
+
+.button:hover {background-color: #ff0000}
+
+.button:active {
+  background-color: #c90303;
+  box-shadow: 0 5px rgb(95, 95, 95);
+  transform: translateY(4px);
+}
+.button-class{
+  margin-left:30vw;
+}
+.a-main{
+  font-size: 35px;
+  margin-left: 44vw;
+}
