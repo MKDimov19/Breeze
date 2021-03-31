@@ -1,45 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Начало | Breeze</title>
-    <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon">
-</head>
-<body>
-    <div class="nav">
-        <input type="checkbox" id="nav-check">
-        <div class="nav-header">
-          
-          <div class="nav-title">Breeze</div>
-          <img class="logo-nav" src="images/logo.png">
-        </div>
-        <div class="nav-btn">
-          <label for="nav-check">
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
-        </div>
-        
-        <div class="nav-links">
-          <a href="index.html" class="active">Начало</a>
-          <a href="html/about.html">За нас</a>
-          <a href="html/map.html">Карта</a>
-          <a href="html/resources.html">Ресурси</a>
-          <a href="html/tips.html">Съвети</a>
-        </div>
-      </div>
-      <a class="a-main">Team Breeze</a>
-      
-      <div class="button-class">
-      <button class="button" href="html/about.html">За нас</button>
-      <button class="button" href="html/map.html">Карта</button>
-      <button class="button" href="html/resources.html">Ресурси</button>
-      <button class="button" href="html/tips.html">Съвети</button>
-    </div>
+<html>
 
+<head>
+<link href="Style/style.css" rel="stylesheet" type="text/css"/>
+<title>Breese | Начало</title>
+</head>
+
+<body>
+
+<div id="logo" class="container">
+	<h1><a href="#">Team<span>Breeze</span></a></h1>
+</div>
+
+<div id="menu" class="container">
+	<ul>
+		<li class="current_page_item"><a href="#" accesskey="1" title="">Начало</a></li>
+		<li><a href="#" accesskey="1" title="">Карта</a></li>
+		<li><a href="#" accesskey="2" title="">Ресурси</a></li>
+		<li><a href="#" accesskey="3" title="">Съвети</a></li>
+		<li><a href="#" accesskey="4" title="">За нас</a></li>
+		<li><a href="#" accesskey="5" title="">112</a></li>
+	</ul>
+</div>
+
+<div id="banner" class="container"> <img src="https://www.penticton.ca/sites/default/files/styles/banner/public/2020-02/2020-02-14-PIC-Penticton%20Fire%20Department%20banner.jpg?itok=n1B-9sbR" width="1200"/></div>
+
+<div id="three-column" class="container">
+	<div id="tbox1">
+		<h2>Пожар вкъщи</h2>
+		<p>Причина за възникване на пожар вкъщи, на работното място или друго закрито помещение в повечето случаи се дължи на нашата небрежност. Понякога е необходимо да направим съвсем малко, за да бъде избегнато най- лошото...</p>
+		<a href="#" class="button">Научете повече</a> 
+	</div>
+
+	<div id="tbox2">
+		<h2>Пожар в гората</h2>
+		<p>През последните години горските пожари нанесоха огромни материални щети и се превърнаха в сериозно бедствие за нашата страна. Пожарът, възникнал в гора, можем да установим по наличието на пламъци, дим, падащи сажди и други...</p>
+		<a href="#" class="button">Научете повече</a> 
+	</div>
+
+	<div id="tbox3">
+		<h2>Пожар на работа</h2>
+		<p>Ако имате ранени хора извикайте незабавно за помощ на висок глас. Без да поемате излишен личен риск - опитайте се да загасите пожара с пожарогасител или с подръчни средства, но никога, АМА НИКОГА, не експериментирайте...</p>
+		<a href="#" class="button">Научете повече</a> 
+	</div>
+</div>
+
+<div id="page" class="container">
+
+	<div id="content">
+		<div class="title">
+			<h2>НОВИНИ<span class="byline"> БУРГАС</span></h2>
+		</div>
+		<a href="#" class="image image-full"><img src="https://www.firetechglobal.com/wp-content/uploads/2019/04/IFFD_blog.jpg"></a>
+		</div>
+	<div id="sidebar">
+		<h2 class="title">ПОЖАРНА - БУРГАС</h2>
+		<ul class="style2">
+			<li class="first">
+				<h3><a href="#">Алексей Игнатов - пожарникар на седмицата</a></h3>
+				<p>Алексей угаси 24 пожара тази седмица и отново мина рекорда на предишния полицай на седмицата - Петьо Ковачев</p>
+			</li>
+			<li>
+				<h3><a href="#">Запалиха община Бургас</a></h3>
+				<p>Протестите в Бургас преминаха в палеж на общината. Хилядите недоволни започнаха да хвърлят факли по полицаите</p>
+			</li>
+			<li>
+				<h3><a href="#">Пребоядисват пожарната</a></h3>
+				<p>Общината не може да реши дали да запази традиционния червен цват на сградата или да я направи синя</p>
+			</li>
+		</ul>
+	</div>
+</div>
+<div id="footer" class="container">
+
+	<div id="fbox1">
+		<h2 class="title">Пожарогасителите</h2>
+		<p>Много хора остават учудени, когато разберат, че има няколко вида пожарогасители. А още по-учудени стават като научат, че ще им опадат пръстите, ако не държат пожарогасител с въглероден диоксид за дръжката, защото е много студен</p>
+		<br>
+		<a href="#" class="button">Научете повече</a> 
+	</div>
+	
+		<div id="fbox2">
+		<h2 class="title">Миналата седмица</h2>
+		<ul class="style1">
+			<li class="first"><a href="#">Запали се къща в Бургас</a></li>
+			<li><a href="#">Много фалшиви обаждания, покрай COVID 19</a></li>
+			<li><a href="#">Ученици подпалиха столовата</a></li>
+			<li><a href="#">75 изгасени пожара за месец януари</a></li>
+		</ul>
+		<a href="#" class="button">Научете повече</a> 
+	</div>
+
+	<div id="fbox3">
+		<h2 class="title">Социални мрежи</h2>
+		<ul class="style1">
+			<li class="first"><a href="#">Twitter</a></li>
+			<li><a href="#">Facebook</a></li>
+			<li><a href="#">Instagram</a></li>
+			<li><a href="#">Viber</a></li>
+		</ul>
+	</div>
+
+</div>
+<div id="footer-bottom" class="container">
+	<p><a href="#">Намерете ни на адрес: Иван Вазов 34</a></p>
+	<p><a>Тел: 1918-9183-938-937-919</a></p>
+</div>
 </body>
 </html>
