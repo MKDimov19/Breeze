@@ -1,6 +1,6 @@
 # Breeze
 
-<img src="Code/images/logo.png">
+<img src="Pictures/logo for readme.png">
 
 # Contributors
 
