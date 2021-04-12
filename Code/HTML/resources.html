@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<link href="../Style/map.css" rel="stylesheet" type="text/css"/>
+<link href="../Style/resources.css" rel="stylesheet" type="text/css"/>
 <link class ="icon" rel="shortcut icon" href="../../Pictures/logo1.png" type="image/x-icon">
 <title>Breeze | Карта</title>
 </head>
@@ -26,8 +26,40 @@
 
 <div id="banner" class="container"> <img src="https://www.penticton.ca/sites/default/files/styles/banner/public/2020-02/2020-02-14-PIC-Penticton%20Fire%20Department%20banner.jpg?itok=n1B-9sbR" width="1200"/></div>
 
+<div id="three-column" class="container">
+	<div id="tbox1">
+		<h2>Отбор 1</h2>
+		<img src="">
+		<a id="button-resources-team1" onclick="Team1()">Вземи този отбор!</a> 
+	</div>
 
+	<div id="tbox2">
+		<h2>Отбор 2</h2>
+		<img src="">
+		<p id="button-resources-team2" onclick="Team2()">Вземи този отбор!</p> 
+	</div>
+
+	<div id="tbox3">
+		<h2>Отбор 3</h2>
+		<img src="">
+		<a id="button-resources-team3" onclick="Team3()">Вземи този отбор!</a> 
+	</div>
+</div>
 <br>
+<script>
+	function Team1()
+	{
+		document.getElementById("button-resources-team1").innerHTML = "Отбор 1 пътува към теб!";
+	}
+	function Team2()
+	{
+		document.getElementById("button-resources-team2").innerHTML = "Отбор 2 пътува към теб!";
+	}
+	function Team3()
+	{
+		document.getElementById("button-resources-team3").innerHTML = "Отбор 3 пътува към теб!";
+	}
+</script>
 
 </div>
 
