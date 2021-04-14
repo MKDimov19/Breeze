@@ -515,7 +515,7 @@ ul.contact li a:before
 .map-heading
 {
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -523,12 +523,15 @@ ul.contact li a:before
 #grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 60px;
+    width: 1224px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .grid-item {
     background-color: rgb(224, 218, 218);
     border: 9px solid #272525;
     padding: 20px;
+    margin: 4px;
     font-size: 30px;
     text-align: center;
   }
@@ -541,4 +544,11 @@ ul.contact li a:before
   .map
   {
       height: 250px;
+  }
+
+  br 
+  {
+    display: block;
+    content: "";
+    margin-top: 10px;
   }
