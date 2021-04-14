@@ -524,3 +524,12 @@
 			padding: 50px 80px ;
 		}
 	}
+
+	.socials{
+		width: 40px;
+  		height: 40px;
+  		position: relative;
+  		top: 15px;
+  		margin-right: 10px;
+  		fill: #fff;
+	}
