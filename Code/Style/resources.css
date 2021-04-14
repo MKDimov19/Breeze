@@ -485,7 +485,7 @@ ul.contact li a:before
 {
     float: left;
     width: 300px;
-    padding: 50px 50px 80px 50px;
+    padding: 50px 38px 50px 50px;
     
 }
 
@@ -542,15 +542,16 @@ ul.contact li a:before
   {
       height: 250px;
   }
+
   #button-resources-team1
-{
+    {
     display: inline-block;
     margin-top: 2em;
     background: #BC1414;
     border-radius: 5px;
     line-height: 4em;
     padding: 0 3em;
-    margin-left: 30px;
+    margin-left: 47px;
     letter-spacing: 0.25em;
     text-decoration: none;
     text-transform: uppercase;
@@ -561,15 +562,16 @@ ul.contact li a:before
     font-size: 0.80em;
     color: rgb(224, 218, 218);;
     }
-    #button-resources-team2
-{
+
+  #button-resources-team2
+    {
     display: inline-block;
     margin-top: 2em;
     background: #BC1414;
     border-radius: 5px;
     line-height: 4em;
     padding: 0 3em;
-    margin-left: 30px;
+    margin-left: 47px;
     letter-spacing: 0.25em;
     text-decoration: none;
     text-transform: uppercase;
@@ -580,15 +582,16 @@ ul.contact li a:before
     font-size: 0.80em;
     color: rgb(224, 218, 218);;
     }
-    #button-resources-team3
-{
+
+  #button-resources-team3
+    {
     display: inline-block;
     margin-top: 2em;
     background: #BC1414;
     border-radius: 5px;
     line-height: 4em;
     padding: 0 3em;
-    margin-left: 30px;
+    margin-left: 47px;
     letter-spacing: 0.25em;
     text-decoration: none;
     text-transform: uppercase;
