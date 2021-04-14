@@ -250,7 +250,7 @@ ul.contact li a:before
 
     .button:hover
     {
-        background: #BB1717;
+        background: #e22929;
         transition: all .25s ease-in-out;
     }
     
@@ -563,6 +563,11 @@ ul.contact li a:before
     color: rgb(224, 218, 218);;
     }
 
+    #button-resources-team1:hover
+    {
+        background-color: #e22929;
+    }
+
   #button-resources-team2
     {
     display: inline-block;
@@ -581,6 +586,11 @@ ul.contact li a:before
     font-weight: 700;
     font-size: 0.80em;
     color: rgb(224, 218, 218);;
+    }
+
+    #button-resources-team2:hover
+    {
+        background-color: #e22929;
     }
 
   #button-resources-team3
@@ -602,6 +612,11 @@ ul.contact li a:before
     font-size: 0.80em;
     color: rgb(224, 218, 218);;
     }
+    
+    #button-resources-team3:hover
+    {
+        background-color: #e22929;
+    }
 
     #button-resources-firetruck1
     {
@@ -621,6 +636,10 @@ ul.contact li a:before
     font-weight: 700;
     font-size: 0.80em;
     color: rgb(224, 218, 218);;
+    }
+    #button-resources-firetruck1:hover
+    {
+        background-color: #e22929;
     }
 
   #button-resources-firetruck2
@@ -642,6 +661,10 @@ ul.contact li a:before
     font-size: 0.80em;
     color: rgb(224, 218, 218);;
     }
+    #button-resources-firetruck2:hover
+    {
+        background-color: #e22929;
+    }
 
   #button-resources-firetruck3
     {
@@ -661,4 +684,8 @@ ul.contact li a:before
     font-weight: 700;
     font-size: 0.80em;
     color: rgb(224, 218, 218);;
+    }
+    #button-resources-firetruck3:hover
+    {
+        background-color: #e22929;
     }
