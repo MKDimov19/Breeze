@@ -554,7 +554,7 @@ ul.contact li a:before
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
   grid-gap: 1.5rem; 
-  width:1220px;
+  width:1200px;
 }
 
 .gallery__img {
