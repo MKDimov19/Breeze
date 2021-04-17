@@ -689,3 +689,18 @@ ul.contact li a:before
     {
         background-color: #e22929;
     }
+    .h1-heading{
+    color: #454445;
+    font-size: 40px;
+    text-align: center;
+}
+    #h1-trucks{
+        color: #454445;
+    font-size: 40px;
+    text-align: center;
+    }
+    #h1-teams{
+        color: #454445;
+        font-size: 40px;
+        text-align: center;
+    }
