@@ -1,10 +1,9 @@
-html, body
-{
+html,
+body {
     height: 100%;
 }
 
-body
-{
+body {
     margin: 0px;
     padding: 0px;
     background-color: #272525;
@@ -14,43 +13,38 @@ body
     color: #919191;
 }
 
-
-h1, h2, h3
-{
+h1,
+h2,
+h3 {
     margin: 0;
     padding: 0;
 }
 
-p, ol, ul
-{
+p,
+ol,
+ul {
     margin-top: 0;
 }
 
-ol, ul
-{
+ol,
+ul {
     padding: 0;
     list-style: none;
 }
 
-p
-{
+p {
     line-height: 180%;
 }
 
-
-
-a
-{
+a {
     color: #747474;
 }
 
-a:hover
-{
+a:hover {
     text-decoration: none;
 }
 
-.container
-{
+.container {
     margin: 0px auto;
     width: 1200px;
 }
@@ -58,71 +52,60 @@ a:hover
 
 /* Heading Titles*/
 
-
-.title
-{
+.title {
     margin-bottom: 2em;
 }
 
-.title h2
-{
+.title h2 {
     letter-spacing: 0.10em;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 3em;
-    color: rgb(224, 218, 218);;
+    color: rgb(224, 218, 218);
+    ;
     letter-spacing: 1px;
 }
 
-.title .byline
-{
-    color:  #BC1414;
+.title .byline {
+    color: #BC1414;
     letter-spacing: 1px;
 }
 
 
 /* Image Style*/
 
-
-.image
-{
+.image {
     display: inline-block;
 }
 
-.image img
-{
+.image img {
     display: block;
     width: 100%;
 }
 
-.image-full
-{
+.image-full {
     display: block;
     width: 100%;
     margin: 0 0 2em 0;
 }
 
-.image-left
-{
+.image-left {
     float: left;
     margin: 0 2em 2em 0;
 }
 
-.image-centered
-{
+.image-centered {
     display: block;
     margin: 0 0 2em 0;
 }
 
-.image-centered img
-{
+.image-centered img {
     margin: 0 auto;
     width: auto;
 }
 
 
 /* List Styles*/
-
 
 ul.style1 {
     margin: 0px;
@@ -171,7 +154,8 @@ ul.style2 h3 {
 }
 
 ul.style2 h3 a {
-    color: rgb(224, 218, 218);;
+    color: rgb(224, 218, 218);
+    ;
 }
 
 ul.style2 a {
@@ -186,35 +170,30 @@ ul.style2 a:hover {
 
 /* Social Icon Styles*/
 
-
-ul.contact
-{
+ul.contact {
     margin: 0;
     padding: 2em 0em 0em 0em;
     list-style: none;
 }
 
-ul.contact li
-{
+ul.contact li {
     display: inline-block;
     padding: 0em 0.30em;
     font-size: 1em;
 }
 
-ul.contact li span
-{
+ul.contact li span {
     display: none;
     margin: 0;
     padding: 0;
 }
 
-ul.contact li a
-{
-    color: rgb(224, 218, 218);;
+ul.contact li a {
+    color: rgb(224, 218, 218);
+    ;
 }
 
-ul.contact li a:before
-{
+ul.contact li a:before {
     display: inline-block;
     background: #3f3f3f;
     width: 40px;
@@ -222,14 +201,14 @@ ul.contact li a:before
     line-height: 40px;
     border-radius: 20px;
     text-align: center;
-    color: rgb(224, 218, 218);;
+    color: rgb(224, 218, 218);
+    ;
 }
+
 
 /* Button Style */
 
-
-.button
-{
+.button {
     display: inline-block;
     margin-top: 2em;
     background: #BC1414;
@@ -245,69 +224,57 @@ ul.contact li a:before
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     font-size: 0.80em;
-    color: rgb(224, 218, 218);;
-    }
+    color: rgb(224, 218, 218);
+    ;
+}
 
-    .button:hover
-    {
-        background: #e22929;
-        transition: all .25s ease-in-out;
-    }
-    
+.button:hover {
+    background: #e22929;
+    transition: all .25s ease-in-out;
+}
+
 
 /* Header*/
 
 
-
-
-
 /* Logo */
 
-
-#logo
-{
+#logo {
     padding: 3em 0em;
     text-transform: uppercase;
 }
 
-#logo h1 a
-{
+#logo h1 a {
     text-decoration: none;
     font-size: 1.5em;
-    color: rgb(224, 218, 218);;
+    color: rgb(224, 218, 218);
+    ;
 }
 
-#logo span
-{
+#logo span {
     color: #BC1414;
 }
 
-#logo p
-{
+#logo p {
     margin: 0;
     padding: 0;
     letter-spacing: 0.10em;
     font-size: 0.90em;
 }
 
-#logo p a
-{
+#logo p a {
     text-decoration: none;
 }
 
 
-
 /* Menu */
 
-
-#menu
-{
+#menu {
     background-color: #1B1B1B;
     border-bottom: 4px solid #BC1414;
 }
 
-#menu ul
-{
+#menu ul {
     margin: 0;
     padding: 0px 0px 0px 0px;
     list-style: none;
@@ -315,13 +282,11 @@ ul.contact li a:before
     text-align: center;
 }
 
-#menu li
-{
+#menu li {
     display: inline-block;
 }
 
-#menu a
-{
+#menu a {
     display: block;
     padding: 0em 2em;
     line-height: 80px;
@@ -333,14 +298,12 @@ ul.contact li a:before
     color: #838383;
 }
 
-#menu .current_page_item a
-{
+#menu .current_page_item a {
     background: #BC1414;
     color: rgb(224, 218, 218);
 }
 
-#menu a:hover
-{
+#menu a:hover {
     text-decoration: none;
     color: rgb(224, 218, 218);
 }
@@ -348,18 +311,14 @@ ul.contact li a:before
 
 /* Banner*/
 
-
-#banner
-{
+#banner {
     margin: 2em auto;
 }
 
 
 /* Page */
 
-
-#page
-{
+#page {
     overflow: hidden;
     padding: 3em 0em;
     border-bottom: 1px solid #363636;
@@ -368,9 +327,7 @@ ul.contact li a:before
 
 /* Content */
 
-
-#content
-{
+#content {
     float: left;
     width: 800px;
 }
@@ -378,25 +335,22 @@ ul.contact li a:before
 
 /* Sidebar */
 
-
-#sidebar
-{
+#sidebar {
     float: right;
     width: 340px;
 }
 
-#sidebar .title
-{
+#sidebar .title {
     letter-spacing: 0.10em;
     font-size: 25px;
     text-align: center;
     text-transform: uppercase;
-    color: rgb(224, 218, 218);;
+    color: rgb(224, 218, 218);
+    ;
 }
 
 
 /* Footer */
-
 
 #footer {
     overflow: hidden;
@@ -404,11 +358,11 @@ ul.contact li a:before
     border-bottom: 1px solid #363636;
 }
 
-#footer .title
-{
+#footer .title {
     letter-spacing: 0.10em;
     text-transform: uppercase;
-    color: rgb(224, 218, 218);;
+    color: rgb(224, 218, 218);
+    ;
 }
 
 #footer #fbox1 {
@@ -430,9 +384,7 @@ ul.contact li a:before
 
 /* Footer  */
 
-
-#footer-bottom
-{
+#footer-bottom {
     padding: 2em 0em;
     font-size: 1em;
     letter-spacing: 0.20em;
@@ -442,15 +394,13 @@ ul.contact li a:before
     border-top: 1px solid #363636;
 }
 
-#footer-bottom a
-{
+#footer-bottom a {
     font-weight: bold;
     text-decoration: none;
     color: #747474;
 }
 
-#footer-bottom a:hover
-{
+#footer-bottom a:hover {
     text-decoration: underline;
     color: #747474;
 }
@@ -458,9 +408,7 @@ ul.contact li a:before
 
 /* Three Columns */
 
-
-#three-column
-{
+#three-column {
     overflow: hidden;
     margin-bottom: 2em;
     background: rgb(224, 218, 218);
@@ -469,8 +417,7 @@ ul.contact li a:before
     text-align: justify;
 }
 
-#three-column h2
-{
+#three-column h2 {
     margin: 1em 0em;
     text-transform: uppercase;
     font-size: 1.5em;
@@ -481,70 +428,61 @@ ul.contact li a:before
 
 #three-column #tbox1,
 #three-column #tbox2,
-#three-column #tbox3
-{
+#three-column #tbox3 {
     float: left;
     width: 300px;
     padding: 50px 38px 50px 50px;
-    
 }
 
-.map
-{
+.map {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-#background-text
-{
+#background-text {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color:  rgb(224, 218, 218);
+    background-color: rgb(224, 218, 218);
 }
 
-#text
-{
+#text {
     width: 400px;
     text-align: left;
     font-size: 18px;
     color: rgb(0, 0, 0);
 }
 
-.map-heading
-{
+.map-heading {
     color: rgb(0, 0, 0);
     font-size: 40px;
     text-align: center;
 }
 
-
 #grid-container {
     display: grid;
     grid-template-columns: auto auto;
     padding: 60px;
-  }
-  .grid-item {
+}
+
+.grid-item {
     background-color: rgb(224, 218, 218);
     border: 9px solid #272525;
     padding: 20px;
     font-size: 30px;
     text-align: center;
-  }
+}
 
-  #map-div
-  {
-      height: 60px;
-  }
+#map-div {
+    height: 60px;
+}
 
-  .map
-  {
-      height: 250px;
-  }
+.map {
+    height: 250px;
+}
 
-  #button-resources-team1
-    {
+#button-resources-team1 {
     display: inline-block;
     margin-top: 2em;
     background: #BC1414;
@@ -560,16 +498,15 @@ ul.contact li a:before
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     font-size: 0.80em;
-    color: rgb(224, 218, 218);;
-    }
+    color: rgb(224, 218, 218);
+    ;
+}
 
-    #button-resources-team1:hover
-    {
-        background-color: #e22929;
-    }
+#button-resources-team1:hover {
+    background-color: #e22929;
+}
 
-  #button-resources-team2
-    {
+#button-resources-team2 {
     display: inline-block;
     margin-top: 2em;
     background: #BC1414;
@@ -585,16 +522,15 @@ ul.contact li a:before
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     font-size: 0.80em;
-    color: rgb(224, 218, 218);;
-    }
+    color: rgb(224, 218, 218);
+    ;
+}
 
-    #button-resources-team2:hover
-    {
-        background-color: #e22929;
-    }
+#button-resources-team2:hover {
+    background-color: #e22929;
+}
 
-  #button-resources-team3
-    {
+#button-resources-team3 {
     display: inline-block;
     margin-top: 2em;
     background: #BC1414;
@@ -610,16 +546,15 @@ ul.contact li a:before
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     font-size: 0.80em;
-    color: rgb(224, 218, 218);;
-    }
-    
-    #button-resources-team3:hover
-    {
-        background-color: #e22929;
-    }
+    color: rgb(224, 218, 218);
+    ;
+}
 
-    #button-resources-firetruck1
-    {
+#button-resources-team3:hover {
+    background-color: #e22929;
+}
+
+#button-resources-firetruck1 {
     display: inline-block;
     margin-top: 2em;
     background: #BC1414;
@@ -635,15 +570,15 @@ ul.contact li a:before
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     font-size: 0.80em;
-    color: rgb(224, 218, 218);;
-    }
-    #button-resources-firetruck1:hover
-    {
-        background-color: #e22929;
-    }
+    color: rgb(224, 218, 218);
+    ;
+}
 
-  #button-resources-firetruck2
-    {
+#button-resources-firetruck1:hover {
+    background-color: #e22929;
+}
+
+#button-resources-firetruck2 {
     display: inline-block;
     margin-top: 2em;
     background: #BC1414;
@@ -659,15 +594,15 @@ ul.contact li a:before
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     font-size: 0.80em;
-    color: rgb(224, 218, 218);;
-    }
-    #button-resources-firetruck2:hover
-    {
-        background-color: #e22929;
-    }
+    color: rgb(224, 218, 218);
+    ;
+}
 
-  #button-resources-firetruck3
-    {
+#button-resources-firetruck2:hover {
+    background-color: #e22929;
+}
+
+#button-resources-firetruck3 {
     display: inline-block;
     margin-top: 2em;
     background: #BC1414;
@@ -683,24 +618,28 @@ ul.contact li a:before
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     font-size: 0.80em;
-    color: rgb(224, 218, 218);;
-    }
-    #button-resources-firetruck3:hover
-    {
-        background-color: #e22929;
-    }
-    .h1-heading{
+    color: rgb(224, 218, 218);
+    ;
+}
+
+#button-resources-firetruck3:hover {
+    background-color: #e22929;
+}
+
+.h1-heading {
     color: #454445;
     font-size: 40px;
     text-align: center;
 }
-    #h1-trucks{
-        color: #454445;
+
+#h1-trucks {
+    color: #454445;
     font-size: 40px;
     text-align: center;
-    }
-    #h1-teams{
-        color: #454445;
-        font-size: 40px;
-        text-align: center;
-    }
+}
+
+#h1-teams {
+    color: #454445;
+    font-size: 40px;
+    text-align: center;
+}
