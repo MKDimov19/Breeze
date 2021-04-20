@@ -3,6 +3,7 @@
 
 <head>
     <link href="../Style/login.css" rel="stylesheet" type="text/css" />
+    <META charset="UTF-8">
     <link class="icon" rel="shortcut icon" href="../../Pictures/logo1.png" type="image/x-icon">
     <title>Breeze | 112</title>
 </head>
@@ -32,7 +33,7 @@
     <div class="login-top">
     <div class="login-form">
     <div class="container-login">
-      <form action="/action_page.php">
+      <form action="mailto:firedepartment834@gmail.com" method="POST" enctype="multipart/form-data">
         <div class="row">
           <div class="col-25">
             <label for="name" class="name">Въведете име:</label>
@@ -55,13 +56,14 @@
           </div>
           <div class="col-75">
             <select id="country" name="country" class="font">
-              <option value="choose">Избери...</option>
-              <option value="australia">Ж.К. Славейков</option>
-              <option value="canada">Ж.К. Изгрев</option>
-              <option value="usa">Ж.К. Меден Рудник</option>
-              <option value="usa">Ж.К. Лазур</option>
-              <option value="usa">Ж.К. Възраждане</option>
-              <option value="usa">Ж.К. Зорница</option>
+              <option value="а">Избери...</option>
+              <option value="а">Ж.К. Славейков</option>
+              <option value="а">Ж.К. Изгрев</option>
+              <option value="а">Ж.К. Меден Рудник</option>
+              <option value="а">Ж.К. Лазур</option>
+              <option value="а">Ж.К. Възраждане</option>
+              <option value="а">Ж.К. Зорница</option>
+              <option value="а">Ж.К. Акациите</option>
             </select>
           </div>
         </div>
@@ -78,11 +80,11 @@
             <label for="subject" class="name">Случай:</label>
           </div>
           <div class="col-75">
-            <textarea id="subject" name="subject" class="font" placeholder="Случай:" style="height:200px"></textarea>
+            <textarea type="text" id="subject" name="subject" class="font" placeholder="Случай:" style="height:200px"></textarea>
           </div>
         </div>
         <div class="row">
-          <input type="submit" value="Изпрати" class="font" style="background-color: #BC1414;">
+          <a href="mailto: firedepartment834@gmail.com" method="post"enctype="multipart/form-data"><input type="submit" value="Изпрати" class="font" style="background-color: #BC1414;"></a>
         </div>
       </form>
     </div>
