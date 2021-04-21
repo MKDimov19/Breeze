@@ -2,8 +2,10 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../Style/map.css" rel="stylesheet" type="text/css" />
     <link class="icon" rel="shortcut icon" href="../../Pictures/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Breeze | Карта</title>
 </head>
 
@@ -13,18 +15,21 @@
         <h1><a href="../index.html">Team<span>Breeze</span></a></h1>
     </div>
 
-    <div id="menu" class="container">
-        <ul>
-            <li><a href="../index.html" accesskey="1" title="">Начало</a></li>
-            <li class="current_page_item"><a href="map.html" accesskey="1" title="">Карта</a></li>
-            <li><a href="resources.html" accesskey="2" title="">Ресурси</a></li>
-            <li><a href="tips.html" accesskey="3" title="">Съвети</a></li>
-            <li><a href="about us.html" accesskey="4" title="">За нас</a></li>
-            <li><a href="login.html" accesskey="5" title="">112</a></li>
-        </ul>
+    <div class="container">
+        <div class="topnav" id="menu">
+            <a href="../index.html" >Начало</a>
+            <a href="map.html" class="active">Карта</a>
+            <a href="resources.html">Ресурси</a>
+            <a href="tips.html">Съвети</a>
+            <a href="about us.html">За Нас</a>
+            <a href="login.html">112</a>
+            <a href="javascript:void(0);" class="icon" onclick="navbar()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
     </div>
 
-    <div id="banner" class="container"> <img src="../../Pictures/map.png" width="1200" /></div>
+    <div id="banner" class="container"> <img src="../../Pictures/map.png" width="1200" class="photo" /></div>
     <h1 class="map-heading">Намерете ни тук:</h1>
     <br>
     <div id="map-div">
@@ -37,7 +42,7 @@
 
     <div id="page" class="container">
 
-        <div id="content">
+        <div id="content" class="help">
             <div class="title">
                 <h2>ПОЖАРНА <span class="byline">КОНТАКТИ</span></h2>
             </div>
@@ -77,6 +82,7 @@
             <a href="map.html">Тел: 1918-9183-938-937-919</a>
         </p>
     </div>
+    <script src="../JavaScript/navbar.js"></script>
 </body>
 
 </html>
