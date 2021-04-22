@@ -269,45 +269,36 @@ ul.contact li a:before {
 
 /* Menu */
 
-#menu {
-    background-color: #1B1B1B;
-    border-bottom: 4px solid #BC1414;
+.topnav {
+	overflow: hidden;
+	background-color: #1B1B1B;
+	border-bottom: 4px solid #BC1414;
+	padding: 0px 0px 0px 0px;
+	line-height: normal;
+	text-align: center;
 }
-
-#menu ul {
-    margin: 0;
-    padding: 0px 0px 0px 0px;
-    list-style: none;
-    line-height: normal;
-    text-align: center;
+.topnav a {
+	padding: 0em 2em;
+	line-height: 80px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: 700;
+	color: #838383;
 }
-
-#menu li {
-    display: inline-block;
+.topnav a.active {
+	background-color: #BC1414;
+	color: rgb(224, 218, 218);
+	padding: 3%;
 }
-
-#menu a {
-    display: block;
-    padding: 0em 2em;
-    line-height: 80px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1em;
-    font-weight: 700;
-    color: #838383;
+.topnav a:hover {
+	text-decoration: none;
+	color: rgb(224, 218, 218);
 }
-
-#menu .current_page_item a {
-    background: #BC1414;
-    color: rgb(224, 218, 218);
+.topnav .icon {
+	display: none;
 }
-
-#menu a:hover {
-    text-decoration: none;
-    color: rgb(224, 218, 218);
-}
-
 
 /* Banner*/
 
@@ -499,7 +490,6 @@ ul.contact li a:before {
     font-weight: 700;
     font-size: 0.80em;
     color: rgb(224, 218, 218);
-    ;
 }
 
 #button-resources-team1:hover {
@@ -571,7 +561,6 @@ ul.contact li a:before {
     font-weight: 700;
     font-size: 0.80em;
     color: rgb(224, 218, 218);
-    ;
 }
 
 #button-resources-firetruck1:hover {
@@ -644,7 +633,7 @@ ul.contact li a:before {
     text-align: left;
     padding-left: 33.3%;
 }
-#counter-div{
+#counter-div {
     padding-top: 1%;
     padding-bottom: 1%;
     overflow: hidden;
@@ -652,6 +641,232 @@ ul.contact li a:before {
     background: rgb(224, 218, 218);
     border-bottom: 4px solid #BC1414;
     color: #525252;
-    text-align: justify;
 
+}
+@media screen and (max-width: 1220px) {
+	.container {
+		margin: 0px auto;
+		width: 1000px;
+	}
+	.photo {
+		width: 1000px;
+	}
+	#three-column #tbox1, 	#three-column #tbox2, 	#three-column #tbox3 {
+        text-align: center;
+		width: 173px;
+		padding: 50px 80px;
+	}
+    input {
+        margin-left: -4.5rem;
+    }
+    #counter-div {
+        text-align: center;
+    }
+    .pls {
+        margin-left: -4.5rem;
+    }
+	#button-resources-team1,  #button-resources-team2,  #button-resources-team3, #button-resources-firetruck1, #button-resources-firetruck2, #button-resources-firetruck3 {
+        margin-left: -1.7rem;
+	}
+	.topnav a.active {
+		background-color: #BC1414;
+		color: rgb(224, 218, 218);
+		padding: 3.6%;
+	}
+}
+@media screen and (max-width: 1016px)
+{
+	.container {
+		margin: 0px auto;
+		width: 800px;
+	}
+	.photo {
+		width: 800px;
+	}
+	#three-column #tbox1, 	#three-column #tbox2, 	#three-column #tbox3 {
+		text-align: center;
+		width: 300px;
+	}
+    #button-resources-team1,  #button-resources-team2,  #button-resources-team3, #button-resources-firetruck1, #button-resources-firetruck2, #button-resources-firetruck3 {
+        margin-left: -1rem;
+	}
+    #tbox1, #tbox2,	#tbox3 {
+		margin-left: 12.5rem;
+	}
+    #three-column #tbox1 h2 {
+        margin-left: 0rem;
+    }
+    #three-column #tbox2 h2 {
+        margin-left: 0rem;
+    }
+    #three-column #tbox3 h2 {
+        margin-left: 0rem;
+    }
+	#tbox1, #tbox2,	#tbox3 {
+		margin-left: 11.5rem;
+	}
+    .pls {
+        margin-left: -1rem;
+    }
+	.topnav a.active {
+		background-color: #BC1414;
+		color: rgb(224, 218, 218);
+		padding: 4.5%;
+	}
+}
+@media screen and (max-width: 816px)
+{
+    .container {
+		margin: 0px auto;
+		width: 600px;
+	}
+	.photo {
+		width: 600px;
+	}
+	#three-column #tbox1, 	#three-column #tbox2, 	#three-column #tbox3 {
+		text-align: center;
+		width: 300px;
+	}
+    #button-resources-team1,  #button-resources-team2,  #button-resources-team3, #button-resources-firetruck1, #button-resources-firetruck2, #button-resources-firetruck3 {
+        margin-left: -4rem;
+        margin-right: 14rem;
+	}
+    .pls {
+        margin-left: -12.5rem;
+    }
+    #h1-teams {
+        margin-left: -5rem;
+    }
+	#tbox1, #tbox2,	#tbox3 {
+		margin-left: 12.5rem;
+	}
+    #three-column #tbox1 h2 {
+        margin-left: -11rem;
+    }
+    #three-column #tbox2 h2 {
+        margin-left: -11rem;
+    }
+    #three-column #tbox3 h2 {
+        margin-left: -11rem;
+    }
+	#tbox1, #tbox2,	#tbox3 {
+		margin-left: 11.5rem;
+	}
+    .topnav a {
+		display: none;
+	}
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+	.topnav.responsive {
+		position: relative;
+	}
+	.topnav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: center;
+	}
+	.topnav a.active {
+		background-color: #BC1414;
+		color: rgb(224, 218, 218);
+		padding: 5.5%;
+	}
+}
+@media screen and (max-width: 615px)
+{
+	.container {
+		margin: 0px auto;
+		width: 400px;
+	}
+	.photo {
+		width: 400px;
+	}
+    #button-resources-team1,  #button-resources-team2,  #button-resources-team3, #button-resources-firetruck1, #button-resources-firetruck2, #button-resources-firetruck3 {
+        margin-left: 1.5rem;
+        margin-right: 14rem;
+	}
+    #h1-teams {
+        font-size: 25px;
+        margin-left: -3rem;
+    }
+    #h1-trucks {
+        font-size: 25px;
+        margin-left: 0rem;
+    }
+    .pls {
+        margin-left: -0.8rem;
+    }
+	#tbox1, #tbox2,	#tbox3 {
+		margin-left: 12.5rem;
+	}
+    #three-column #tbox1 h2 {
+        margin-left: 0rem;
+    }
+    #three-column #tbox2 h2 {
+        margin-left: 0rem;
+    }
+    #three-column #tbox3 h2 {
+        margin-left: 0rem;
+    }
+	#three-column #tbox1, #three-column #tbox2,	#three-column #tbox3 {
+		text-align: center;
+		width: 300px;
+	}
+	#tbox1,	#tbox2,	#tbox3 {
+		margin-left: -1.75rem;
+	}
+	.topnav a.active {
+		background-color: #BC1414;
+		color: rgb(224, 218, 218);
+		padding: 8%;
+	}
+}
+@media screen and (max-width: 415px)
+{
+    #logo {
+        font-size: 0.5em;
+    }
+    .container {
+		margin: 0px auto;
+		width: 200px;
+	}
+	.photo {
+		width: 200px;
+	}
+    #h1-teams {
+        font-size: 15px;
+        margin-left: -1.7rem;
+    }
+    #h1-trucks {
+        font-size: 15px;
+        margin-left: 1rem;
+    }
+    #three-column #tbox1 h2 {
+        margin-left: -12rem;
+    }
+    #three-column #tbox2 h2 {
+        margin-left: -12rem;
+    }
+    #three-column #tbox3 h2 {
+        margin-left: -12rem;
+    }
+    #button-resources-team1,  #button-resources-team2,  #button-resources-team3, #button-resources-firetruck1, #button-resources-firetruck2, #button-resources-firetruck3 {
+        margin-left: -4rem;
+        margin-right: 14rem;
+	}
+    .pls {
+        width: 200px;
+        height: 180px;
+        margin-left: -12.7rem;
+    }
+    .pomo6 {
+        margin-left: 0rem;
+        font-size: 7px;
+    }
 }
