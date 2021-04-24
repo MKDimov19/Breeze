@@ -268,26 +268,15 @@ ul.contact li a:before {
 
 
 /* Menu */
-
-#menu {
+.topnav {
+    overflow: hidden;
     background-color: #1B1B1B;
     border-bottom: 4px solid #BC1414;
-}
-
-#menu ul {
-    margin: 0;
     padding: 0px 0px 0px 0px;
-    list-style: none;
     line-height: normal;
     text-align: center;
 }
-
-#menu li {
-    display: inline-block;
-}
-
-#menu a {
-    display: block;
+.topnav a {
     padding: 0em 2em;
     line-height: 80px;
     letter-spacing: 1px;
@@ -297,18 +286,18 @@ ul.contact li a:before {
     font-weight: 700;
     color: #838383;
 }
-
-#menu .current_page_item a {
-    background: #BC1414;
+.topnav a.active {
+    background-color: #BC1414;
     color: rgb(224, 218, 218);
+    padding: 3%;
 }
-
-#menu a:hover {
+.topnav a:hover {
     text-decoration: none;
     color: rgb(224, 218, 218);
 }
-
-
+.topnav .icon {
+    display: none;
+}
 /* Banner*/
 
 #banner {
@@ -547,4 +536,196 @@ ul.contact li a:before {
     grid-column-end: 9;
     grid-row-start: 6;
     grid-row-end: 9;
+}
+@media screen and (max-width: 1220px) {
+    .container {
+        margin: 0px auto;
+        width: 1000px;
+    }
+    .photo {
+        width: 1000px;
+    }
+    #background-text {
+        width: 1000px;
+    }
+    #three-column h2 {
+        font-size: 1em;
+    }
+    #three-column #tbox1, #three-column #tbox2, #three-column #tbox3 {
+        width: 173px;
+        padding: 50px 80px;
+    }
+    #three-column #tbox1 {
+        margin-left: -4.3rem;
+    }
+    .gallery {
+        width: 1000px;
+    }
+    .topnav a.active {
+        background-color: #BC1414;
+        color: rgb(224, 218, 218);
+        padding: 3.6%;
+    }
+}
+@media screen and (max-width: 1016px) {
+    .container {
+        margin: 0px auto;
+        width: 800px;
+    }
+    .photo {
+        width: 800px;
+    }
+    #background-text {
+        width: 800px;
+    }
+    .gallery {
+        width: 800px;
+    }
+    .topnav a.active {
+        background-color: #BC1414;
+        color: rgb(224, 218, 218);
+        padding: 4.5%;
+    }
+    #three-column #tbox1, #three-column #tbox2, #three-column #tbox3 {
+        text-align: center;
+    }
+    #tbox2 {
+        margin-left: -4rem;
+    }
+    #tbox3 {
+        margin-left: -5rem;
+    }
+    .help2 {
+        width: 225px;
+    }
+    .button {
+        margin-left: 0.5rem;
+    }
+}
+@media screen and (max-width: 816px) {
+    .container {
+        margin: 0px auto;
+        width: 600px;
+    }
+    .photo {
+        width: 600px;
+    }
+    #background-text {
+        width: 600px;
+    }
+    .gallery {
+        width: 600px;
+    }
+    .image {
+        width: 600px;
+    }
+    #text {
+        width: 600px;
+    }
+    .topnav a {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .topnav a.active {
+        background-color: #BC1414;
+        color: rgb(224, 218, 218);
+        padding: 5.5%;
+    }
+    #tbox1 {
+        margin-left: 54326rem;
+    }
+    #tbox2 {
+        margin-left: 0.17578rem;
+    }
+    #tbox3 {
+        margin-left: 7rem;
+    }
+    .help2 {
+        width: 200px;
+    }
+    .button {
+        margin-left: -0rem;
+        width: 125px;
+    }
+}
+@media screen and (max-width: 615px) {
+    .container {
+        margin: 0px auto;
+        width: 400px;
+    }
+    .photo {
+        width: 400px;
+    }
+    #background-text {
+        width: 400px;
+    }
+    .gallery {
+        width: 400px;
+    }
+    .image {
+        width: 400px;
+    }
+    #text {
+        font-size: 16.3px;
+        width: 400px;
+    }
+}
+@media screen and (max-width: 416px) {
+    #logo {
+        font-size: 0.5em;
+    }
+    .container {
+        width: 200px;
+    }
+    .photo {
+        width: 200px;
+    }
+    #background-text {
+        width: 200px;
+    }
+    .gallery {
+        width: 200px;
+    }
+    .image {
+        width: 200px;
+    }
+    #text {
+        font-size: 11.6px;
+        width: 200px;
+    }
+    #tbox2 {
+        margin-left: -4.3rem;
+    }
+    #tbox3 {
+        margin-left: -4.3rem;
+    }
+    .help2 {
+        width: 175px;
+    }
+    .button {
+        margin-left: -0.6rem;
+        width: 120px;
+    }
+    .h1-heading {
+        font-size: 25px;
+    }
+    .help3 {
+        font-size: 7px;
+    }
 }

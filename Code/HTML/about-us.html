@@ -2,8 +2,10 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../Style/about-us.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="../../Pictures/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Breeze | За нас</title>
 </head>
 
@@ -13,18 +15,21 @@
         <h1><a href="../index.html">Team<span>Breeze</span></a></h1>
     </div>
 
-    <div id="menu" class="container">
-        <ul>
-            <li><a href="../index.html" accesskey="1" title="">Начало</a></li>
-            <li><a href="map.html" accesskey="1" title="">Карта</a></li>
-            <li><a href="resources.html" accesskey="2" title="">Ресурси</a></li>
-            <li><a href="tips.html" accesskey="3" title="">Съвети</a></li>
-            <li class="current_page_item"><a href="about-us.html" accesskey="4" title="">За нас</a></li>
-            <li><a href="login.html" accesskey="5" title="">112</a></li>
-        </ul>
+    <div class="container">
+        <div class="topnav" id="menu">
+            <a href="../index.html">Начало</a>
+            <a href="map.html">Карта</a>
+            <a href="resources.html">Ресурси</a>
+            <a href="tips.html">Съвети</a>
+            <a href="about-us.html" class="active">За Нас</a>
+            <a href="login.html">112</a>
+            <a href="javascript:void(0);" class="icon" onclick="navbar()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
     </div>
 
-    <div id="banner" class="container"> <img src="../../Pictures/about-us.jpg" width="1200" alt="a"></div>
+    <div id="banner" class="container"> <img class="photo" src="../../Pictures/about-us.jpg" width="1200" alt="a"></div>
 
     <h1 class="h1-heading">За нас</h1>
 
@@ -51,20 +56,19 @@
     <div id="three-column" class="container">
         <div id="tbox1">
             <h2>Отвън</h2>
-            <img src="https://www.buildingoftheyear.bg/data/uploads/originals/buildings/475/ac8feeeb748edd77f73fcd4e27e78131.jpg"
-                alt="#" width="310">
+            <img class="help2" src="https://www.buildingoftheyear.bg/data/uploads/originals/buildings/475/ac8feeeb748edd77f73fcd4e27e78131.jpg" alt="#" width="310">
             <a href="#gallery" class="button">Разгледайте</a>
         </div>
 
         <div id="tbox2">
             <h2>Отвътре</h2>
-            <img src="https://i.pinimg.com/originals/90/77/6b/90776bfd60755b0461865b23fab6c30f.jpg" width="310" alt="a">
+            <img class="help2" src="https://i.pinimg.com/originals/90/77/6b/90776bfd60755b0461865b23fab6c30f.jpg" width="310" alt="a">
             <a href="#gallery" class="button">Разгледайте</a>
         </div>
 
         <div id="tbox3">
             <h2>Нашият екип</h2>
-            <img src="https://richmondconfidential.org/wp-content/uploads/2014/09/IMG_1586.jpg" width="310" alt="a">
+            <img class="help2" src="https://richmondconfidential.org/wp-content/uploads/2014/09/IMG_1586.jpg" width="310" alt="a">
             <a href="#gallery" class="button">Разгледайте</a>
         </div>
     </div>
@@ -122,7 +126,7 @@
         <p>
             <a href="map.html">Намерете ни на адрес: Бургас - Иван Вазов 34</a>
         </p>
-        <p>
+        <p class="help3">
             <a href="map.html">Email: FireDepartment@gmail.com</a>
         </p>
         <p>
@@ -130,6 +134,7 @@
         </p>
     </div>
 
+    <script src="../JavaScript/navbar.js"></script>
 </body>
 
 </html>
