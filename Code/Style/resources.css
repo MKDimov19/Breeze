@@ -387,6 +387,24 @@ a:hover {
     text-align: center;
 }
 
+.diagram1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.diagram2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.diagram3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* Responsiveness */
 
@@ -574,6 +592,15 @@ a:hover {
     #trucks-counter {
         margin-left: 29rem;
     }
+    .diagram1 {
+        width: 600px;
+    }
+    .diagram2 {
+        width: 600px;
+    }
+    .diagram3 {
+        width: 600px;
+    }
 }
 
 @media screen and (max-width: 615px) {
@@ -643,14 +670,24 @@ a:hover {
         float: right;
         font-size: 30px;
         margin-top: -2rem;
+        margin-right: 5rem;
     }
     #h1-teams {
         margin-left: 0rem;
         font-size: 20px;
     }
     #teams-counter {
+        margin-left: 5rem;
         font-size: 30px;
-        margin-left: 0rem;
+    }
+    .diagram1 {
+        width: 400px;
+    }
+    .diagram2 {
+        width: 400px;
+    }
+    .diagram3 {
+        width: 400px;
     }
 }
 
@@ -709,28 +746,24 @@ a:hover {
         margin-top: -1.7rem;
     }
     #teams-counter {
+        margin-left: 2.6rem;
         font-size: 15px;
     }
     #trucks-counter {
+        margin-right: 2.5rem;
         font-size: 15px;
         margin-top: -0.9rem;
     }
-}
-
-.diagram1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.diagram2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.diagram3 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    .diagram1 {
+        width: 200px;
+    }
+    .diagram2 {
+        width: 200px;
+    }
+    .diagram3 {
+        width: 200px;
+    }
+    .h1-heading {
+        font-size: 30px;
+    }
 }
