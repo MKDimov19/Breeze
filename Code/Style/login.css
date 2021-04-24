@@ -590,4 +590,5 @@ input[type=submit]:hover {
 .font {
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
+    height: 200;
 }
