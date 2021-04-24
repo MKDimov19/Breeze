@@ -251,6 +251,7 @@ a:hover {
     grid-row-start: 6;
     grid-row-end: 9;
 }
+                        /* Responsiveness */
 @media screen and (max-width: 1220px) {
     .container {
         margin: 0px auto;
