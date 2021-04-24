@@ -269,25 +269,15 @@ ul.contact li a:before {
 
 /* Menu */
 
-#menu {
+.topnav {
+    overflow: hidden;
     background-color: #1B1B1B;
     border-bottom: 4px solid #BC1414;
-}
-
-#menu ul {
-    margin: 0;
     padding: 0px 0px 0px 0px;
-    list-style: none;
     line-height: normal;
     text-align: center;
 }
-
-#menu li {
-    display: inline-block;
-}
-
-#menu a {
-    display: block;
+.topnav a {
     padding: 0em 2em;
     line-height: 80px;
     letter-spacing: 1px;
@@ -297,15 +287,17 @@ ul.contact li a:before {
     font-weight: 700;
     color: #838383;
 }
-
-#menu .current_page_item a {
-    background: #BC1414;
+.topnav a.active {
+    background-color: #BC1414;
     color: rgb(224, 218, 218);
+    padding: 3%;
 }
-
-#menu a:hover {
+.topnav a:hover {
     text-decoration: none;
     color: rgb(224, 218, 218);
+}
+.topnav .icon {
+    display: none;
 }
 
 
@@ -573,4 +565,183 @@ br {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+@media screen and (max-width: 1220px)
+{
+    .container {
+        margin: 0px auto;
+        width: 1000px;
+    }
+    .photo {
+        width: 1000px;
+    }
+    .video {
+        width: 1000px;
+    }
+    #three-column {
+        overflow: hidden;
+        margin-bottom: 2em;
+        background: rgb(224, 218, 218);
+        border-bottom: 4px solid #BC1414;
+        color: #525252;
+        text-align: center;
+    }
+    #three-column h2 {
+        margin: 1em 0em;
+        text-transform: uppercase;
+        font-size: 1em;
+        font-weight: 700;
+        color: #454445;
+        text-align: center;
+    }
+    #three-column #tbox1, #three-column #tbox2, #three-column #tbox3 {
+        float: left;
+        width: 173px;
+        padding: 50px 80px;
+    }
+    .topnav a.active {
+        background-color: #BC1414;
+        color: rgb(224, 218, 218);
+        padding: 3.6%;
+    }
+}
+@media screen and (max-width: 1016px) {
+    .container {
+        margin: 0px auto;
+        width: 800px;
+    }
+    .photo {
+        width: 800px;
+    }
+    .video {
+        width: 800px;
+    }
+    #three-column #tbox1, #three-column #tbox2, #three-column #tbox3 {
+        text-align: center;
+    }
+    #tbox1 {
+        margin-left: 15rem;
+    }
+    #tbox2 {
+        margin-left: 15rem;
+    }
+    #tbox3 {
+        margin-left: 15rem;
+    }
+    .h1-heading {
+        font-size: 40px;
+    }
+    .photo1 {
+        margin-left: -3rem;
+        width: 300px;
+    }
+    .photo2 {
+        margin-left: -2rem;
+    }
+    .photo3 {
+        margin-left: -4rem;
+    }
+    .topnav a.active {
+        background-color: #BC1414;
+        color: rgb(224, 218, 218);
+        padding: 4.5%;
+    }
+}
+@media screen and (max-width: 816px) {
+    .container {
+        margin: 0px auto;
+        width: 600px;
+    }
+    .photo {
+        width: 600px;
+    }
+    .video {
+        width: 600px;
+    }
+    .h1-heading {
+        font-size: 30px;
+    }
+    #three-column #tbox1, #three-column #tbox2, #three-column #tbox3 {
+        margin-left: 9rem;
+    }
+    .topnav a {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .topnav a.active {
+        background-color: #BC1414;
+        color: rgb(224, 218, 218);
+        padding: 5.5%;
+    }
+}
+@media screen and (max-width: 615px) {
+    .container {
+        margin: 0px auto;
+        width: 400px;
+    }
+    .photo {
+        width: 400px;
+    }
+    .video {
+        width: 400px;
+    }
+    .h1-heading {
+        font-size: 20px;
+    }
+    .topnav a.active {
+        background-color: #BC1414;
+        color: rgb(224, 218, 218);
+        padding: 8%;
+    }
+    #three-column #tbox1, #three-column #tbox2, #three-column #tbox3 {
+        margin-left: 3rem;
+    }
+}
+@media screen and (max-width: 416px) {
+    .container {
+        margin: 0px auto;
+        width: 200px;
+    }
+    .photo {
+        width: 200px;
+    }
+    .video {
+        width: 200px;
+    }
+    .h1-heading {
+        font-size: 10px;
+    }
+    .h1-heading-spacing {
+        font-size: 15px;
+    }
+    #three-column #tbox1, #three-column #tbox2, #three-column #tbox3 {
+        margin-left: -4rem;
+    }
+    .photo1 {
+        margin-left: 1rem;
+        width: 175px;
+    }
+    .photo3 {
+        width: 185px;
+        margin-left: 0rem;
+    }
+    .help1 {
+        font-size: 7px;
+    }
 }
