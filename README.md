@@ -14,7 +14,7 @@
 
 # Features 🧯
 
-Hi! We are team **Breeze**. The task we had to complete for this project was to create a website using **HTML5 & CSS3 & JavaScript**. The topic is **"Fire Department"**. We decided to make the website of the Fire Department. Its purpose is to help people take care of fires and an easier way to call an Emergency is provided in the site. The user can see how many units are available and the most recent **news** associated with fires. There is also a **map** where the user can see where the Fire Department is located. There are **tips** on how to put down a fire in different occasions.
+Hi! We are team **Breeze**. The task we had to complete for this project was to create a website using **HTML5 & CSS3 & JavaScript**. The topic is **"Fire Department"**. We decided to make the website of the Fire Department. Its purpose is to help people take care of fires and an easier way to call an **Emergency** is provided in the site. The user can see how many units are available and the most recent **news** associated with fires. There is also a **map** where the user can see where the Fire Department is located. There are **tips** on how to put down a fire in different occasions.
 
 # Links 🧬
 
